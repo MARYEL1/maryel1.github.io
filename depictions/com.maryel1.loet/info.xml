@@ -6,6 +6,6 @@
 		<description>A flat, windows-like theme with low profile colors</description>
 	</descriptionlist>
 	<screenshots>
-		<img>Loet.png</img>
+		<screenshot>Loet.png</screenshot>
 	</screenshots>
 </package>
