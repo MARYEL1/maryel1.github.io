@@ -35,25 +35,25 @@
 					}
 				}
 			}
-			{"type":"text","source":"package>version"}
-		,"#packageShortDesc" :
-			{"type":"text","source":"package>shortDescription"}
-		,"#compatibilityCheck" :
-			{"type":"custom"
-				,"source":"package>compatibility>firmware"
-				,"render":function(element,source){
-					var res = ios_version_check(
-						$(source).find("miniOS").text(),
-						$(source).find("maxiOS").text(),
-						$(source).find("otherVersions").text(),
-						function(message,isBad) {
-							$(element).html(message)
-							.addClass( (isBad?'alert-danger':'alert-success'));
-						}
-					);
-					if(res==0) {$(element).hide()}
-				}
-			}
+//			{"type":"text","source":"package>version"}
+	//	,"#packageShortDesc" :
+		//	{"type":"text","source":"package>shortDescription"}
+	//	,"#compatibilityCheck" :
+	//		{"type":"custom"
+	//			,"source":"package>compatibility>firmware"
+	//			,"render":function(element,source){
+	//				var res = ios_version_check(
+	//					$(source).find("miniOS").text(),
+	//					$(source).find("maxiOS").text(),
+	//					$(source).find("otherVersions").text(),
+		//				function(message,isBad) {
+		//					$(element).html(message)
+	//						.addClass( (isBad?'alert-danger':'alert-success'));
+	//					}
+		//			);
+		//			if(res==0) {$(element).hide()}
+	//			}
+	//		}
         ,"#descriptionList"	:
 			{"type":"list"
 				,"source" :"package>descriptionlist>description"
@@ -165,9 +165,25 @@
 	</div>
 
 	<div class="container">
+	  <div id="compatibilityCheck" class="alert"></div>
+	</div>
+
+	<div class="container">
 		<h5>DESCRIPTION</h5>
 		<ul id="descriptionList" class="list-group">
 			<li id="screenshotsLink" />
+		</ul>
+	</div>
+
+	<div class="container">
+		<h5>IN THIS VERSION <span id="versionBadge" class="badge" /></h5>
+		<ul id="changesList" class="list-group">
+			<li id="changelogLink" />
+		</ul>
+	</div>
+	<div class="container" id="dependenciesContainer">
+		<h5>DEPENDENCIES</h5>
+		<ul id="dependencyList" class="list-group">
 		</ul>
 	</div>
 
