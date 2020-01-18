@@ -2,17 +2,10 @@
 	<id>com.maryel1.loetdark</id>
 	<name>Loet</name>
 	<version>1.1</version>
-	<compatibility>
-	</compatibility>
-	<dependencies>
-	</dependencies>
 	<descriptionlist>
 		<description>The dark version of the theme Loet</description>
 	</descriptionlist>
 	<screenshots>
+		<img>Loet Dark.png</img>
 	</screenshots>
-	<changelog>
-	</changelog>
-	<links>
-	</links>
 </package>

@@ -6,9 +6,14 @@
 			<iconclass>fa fa-twitter</iconclass>
 		</link>
 		<link>
-			<name>I want this depiction template</name>
-			<url>https://github.com/supermamon/Reposi3/</url>
-			<iconclass>fa fa-thumbs-up</iconclass>
+			<name>Donate with PayPal</name>
+			<url>https://paypal.me/pools/c/8kkclql2Kj</url>
+			<iconclass>fa fa-paypal</iconclass>
+		</link>
+		<link>
+			<name>Donate with Patreon</name>
+			<url>https://www.patreon.com/maryel1</url>
+			<iconclass>fa fa-patreon</iconclass>
 		</link>
 	</footerlinks>
 </repo>
