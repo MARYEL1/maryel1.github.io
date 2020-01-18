@@ -35,25 +35,26 @@
 					}
 				}
 			}
-//			{"type":"text","source":"package>version"}
-	//	,"#packageShortDesc" :
-		//	{"type":"text","source":"package>shortDescription"}
-	//	,"#compatibilityCheck" :
-	//		{"type":"custom"
-	//			,"source":"package>compatibility>firmware"
-	//			,"render":function(element,source){
-	//				var res = ios_version_check(
-	//					$(source).find("miniOS").text(),
-	//					$(source).find("maxiOS").text(),
-	//					$(source).find("otherVersions").text(),
-		//				function(message,isBad) {
-		//					$(element).html(message)
-	//						.addClass( (isBad?'alert-danger':'alert-success'));
-	//					}
-		//			);
-		//			if(res==0) {$(element).hide()}
-	//			}
-	//		}
+			{"type":"text","source":"package>version"}
+		,"#packageShortDesc" :
+			{"type":"text","source":"package>shortDescription"}
+		,"#compatibilityCheck" :
+			{"type":"custom"
+				,"source":"package>compatibility>firmware"
+				,"render":function(element,source){
+					var res = ios_version_check(
+						$(source).find("miniOS").text(),
+						$(source).find("maxiOS").text(),
+						$(source).find("otherVersions").text(),
+						function(message,isBad) {
+							$(element).html(message)
+	  					.addClass( (isBad?'alert-danger':'alert-success'));
+						}
+					);
+          res=0;
+          if(res==0) {$(element).hide()}
+				}
+			}
         ,"#descriptionList"	:
 			{"type":"list"
 				,"source" :"package>descriptionlist>description"

@@ -6,6 +6,6 @@
 		<description>The dark version of the theme Loet</description>
 	</descriptionlist>
 	<screenshots>
-		<img>Loet Dark.png</img>
+		<screenshot>screenshot.png</screenshot>
 	</screenshots>
 </package>
