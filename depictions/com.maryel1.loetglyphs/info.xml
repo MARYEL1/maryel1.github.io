@@ -1,0 +1,18 @@
+<package>
+	<id>com.maryel1.loetglyphs</id>
+	<name>Loet</name>
+	<version>1.1</version>
+	<compatibility>
+	</compatibility>
+	<dependencies>
+	</dependencies>
+	<descriptionlist>
+		<description>The glyph version of the theme Loet</description>
+	</descriptionlist>
+	<screenshots>
+	</screenshots>
+	<changelog>
+	</changelog>
+	<links>
+	</links>
+</package>
