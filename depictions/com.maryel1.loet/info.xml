@@ -2,10 +2,17 @@
 	<id>com.maryel1.loet</id>
 	<name>Loet</name>
 	<version>1.1</version>
+	<compatibility>
+	</compatibility>
+	<dependencies>
+	</dependencies>
 	<descriptionlist>
 		<description>A flat, windows-like theme with low profile colors</description>
 	</descriptionlist>
 	<screenshots>
-		<screenshot>screenshot.png</screenshot>
 	</screenshots>
+	<changelog>
+	</changelog>
+	<links>
+	</links>
 </package>
