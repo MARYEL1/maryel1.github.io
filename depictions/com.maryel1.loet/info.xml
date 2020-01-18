@@ -1,10 +1,11 @@
 <package>
 	<id>com.maryel1.loet</id>
 	<name>Loet</name>
+	<version>1.1</version>
 	<descriptionlist>
 		<description>A flat, windows-like theme with low profile colors</description>
 	</descriptionlist>
 	<screenshots>
-		<screenshot></screenshot>
+		<screenshot>Loet.png</screenshot>
 	</screenshots>
 </package>
