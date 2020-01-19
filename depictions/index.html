@@ -37,7 +37,7 @@
 			}
 		,"#packageVersion" :
 			{"type":"text","source":"package>version"}
-		,"#packageShortDesc" : 
+		,"#packageShortDesc" :
 			{"type":"text","source":"package>shortDescription"}
 		,"#compatibilityCheck" :
 			{"type":"custom"
@@ -52,6 +52,7 @@
 							.addClass( (isBad?'alert-danger':'alert-success'));
 						}
 					);
+          res=0;
 					if(res==0) {$(element).hide()}
 				}
 			}
@@ -252,7 +253,7 @@
 
 <div id="contactInfo">
 	<div class="container">
-		<h5>CONTACT</h5>
+		<h5>LINKS</h5>
 		<ul class="list-group" id="repoFooterLinks">
 		</ul>
 	</div>
