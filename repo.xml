@@ -13,14 +13,13 @@
 		<link>
 			<name>Donate with Patreon</name>
 			<url>https://www.patreon.com/maryel1</url>
-			<iconclass>fab fa-patreon</iconclass>
+			<iconclass>fa fa-patreon</iconclass>
 		</link>
-	</footerlinks>
-	<footerlinks>
+		<br /><br />
 		<link>
 			<name>If descriptions and screenshots isn't showing, you can view it here</name>
 			<url>https://maryel1.github.io</url>
-			<iconclass>fas fa-compass</iconclass>
+			<iconclass>fa fa-compass</iconclass>
 		</link>
 	</footerlinks>
 </repo>
