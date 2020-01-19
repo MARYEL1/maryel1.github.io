@@ -1,3 +1,4 @@
+<script src="https://kit.fontawesome.com/yourcode.js"></script>
 <repo>
 	<footerlinks>
 		<link>
@@ -15,7 +16,6 @@
 			<url>https://www.patreon.com/maryel1</url>
 			<iconclass>fa fa-patreon</iconclass>
 		</link>
-		<br /><br />
 		<link>
 			<name>If descriptions and screenshots isn't showing, you can view it here</name>
 			<url>https://maryel1.github.io</url>
