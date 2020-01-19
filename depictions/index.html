@@ -35,9 +35,8 @@
 					}
 				}
 			}
-		,"#packageVersion" :
 			{"type":"text","source":"package>version"}
-		,"#packageShortDesc" : 
+		,"#packageShortDesc" :
 			{"type":"text","source":"package>shortDescription"}
 		,"#compatibilityCheck" :
 			{"type":"custom"
@@ -49,10 +48,11 @@
 						$(source).find("otherVersions").text(),
 						function(message,isBad) {
 							$(element).html(message)
-							.addClass( (isBad?'alert-danger':'alert-success'));
+	  					.addClass( (isBad?'alert-danger':'alert-success'));
 						}
 					);
-					if(res==0) {$(element).hide()}
+          res=0;
+if(res==0) {$(element).hide()}
 				}
 			}
         ,"#descriptionList"	:
@@ -161,36 +161,14 @@
 	<div id="packageHeader" class="container" style="display:none">
 		<div class="jumbotron">
 			<h1 id="packageName"></h1>
-			<p id="packageShortDesc">brought to you by Reposi3</p>
+			<p id="packageShortDesc"></p>
 		</div>
-	</div>
-
-	<div class="container">
-	  <div id="compatibilityCheck" class="alert"></div>
 	</div>
 
 	<div class="container">
 		<h5>DESCRIPTION</h5>
 		<ul id="descriptionList" class="list-group">
 			<li id="screenshotsLink" />
-		</ul>
-	</div>
-
-	<div class="container">
-		<h5>IN THIS VERSION <span id="versionBadge" class="badge" /></h5>
-		<ul id="changesList" class="list-group">
-			<li id="changelogLink" />
-		</ul>
-	</div>
-	<div class="container" id="dependenciesContainer">
-		<h5>DEPENDENCIES</h5>
-		<ul id="dependencyList" class="list-group">
-		</ul>
-	</div>
-
-	<div class="container" id="externalLinksContainer">
-		<h5>LINKS</h5>
-		<ul id="externalLinksList" class="list-group">
 		</ul>
 	</div>
 
@@ -252,7 +230,6 @@
 
 <div id="contactInfo">
 	<div class="container">
-		<h5>CONTACT</h5>
 		<ul class="list-group" id="repoFooterLinks">
 		</ul>
 	</div>
