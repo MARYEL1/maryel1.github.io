@@ -15,5 +15,10 @@
 			<url>https://www.patreon.com/maryel1</url>
 			<iconclass>fa fa-patreon</iconclass>
 		</link>
+		<link>
+			<name>My other themes</name>
+			<url>https://maryel1.github.io</url>
+			<iconclass>fa fa-safari</iconclass>
+		</link>
 	</footerlinks>
 </repo>
