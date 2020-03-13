@@ -1,0 +1,24 @@
+<package>
+	<id>com.maryel1.jordanos</id>
+	<name>JordanOS</name>
+	<version>0.1</version>
+	<compatibility>
+		<firmware>
+		</firmware>
+	</compatibility>
+	<dependencies>
+	</dependencies>
+	<descriptionlist>
+		<description>A small theme with 19 icons just for fun</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>JordanOS</description>
+			<image>jordan.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+	</changelog>
+	<links>
+	</links>
+</package>
