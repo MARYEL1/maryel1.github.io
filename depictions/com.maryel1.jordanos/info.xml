@@ -1,7 +1,7 @@
 <package>
 	<id>com.maryel1.jordanos</id>
 	<name>JordanOS</name>
-	<version>0.1</version>
+	<version>0.2</version>
 	<compatibility>
 		<firmware>
 		</firmware>
@@ -9,7 +9,7 @@
 	<dependencies>
 	</dependencies>
 	<descriptionlist>
-		<description>A small theme with 19 icons just for fun</description>
+		<description>A small theme with 26 icons just for fun</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
