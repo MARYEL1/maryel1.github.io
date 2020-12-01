@@ -15,8 +15,10 @@
 		<screenshot>
 			<description>Rounded Status</description>
 			<image>roundedstatus.jpg</image>
-			<description>More Icons</description>
-			<image>roundedstatus2.jpg</image>
+		</screenshot>
+		<screenshot>
+		<description>More Icons</description>
+		<image>roundedstatus2.jpg</image>
 		</screenshot>
 	</screenshots>
 	<changelog>
